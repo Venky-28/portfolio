@@ -1,0 +1,232 @@
+@media only screen and (max-width: 600px){
+
+    nav .mainMenu{
+        height: 400px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #ff004f;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .mainMenu li{
+        margin: 25px 25px;
+    }
+
+    nav .mainMenu li a{
+        font-size: 20px;
+    }
+
+
+    nav .mainMenu .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        font-size: 2.5rem;
+    }
+
+    nav .openMenu{
+        display: block;
+        font-size: 2.5rem;
+        position: absolute;
+        right: 10px;
+    }
+
+
+    nav .logo{
+        height:62px;
+        width: 62px;
+        margin-left: -30px;
+    }
+    
+    nav .name{
+        height: 40px;
+    }
+
+    .header-text{
+        margin-top: 260px;
+    }
+
+    .header-text h1{
+        font-size: 40px;
+    }
+
+    .header-text p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+     .social{
+        display: none;
+     }
+
+     .circle{
+        height: 45px;
+        width: 45px;
+        border-radius: 50px;    
+     }
+
+     .circle i{
+        position: relative;
+        top: 15px;
+        left: 12px;
+        font-size: 18px;
+    }
+
+
+    /* about */
+
+    #about-headng{
+        margin-top: -260px;
+    }
+
+    .title h1{
+        font-size: 20px;
+    }
+
+    .title p{
+        font-size: 13px;
+        margin-top: 15px;
+    } 
+    
+
+    .about-col-2 h1{
+        margin-top: 30px;
+    }   
+
+
+    /* projects */
+    
+    #project-headng{
+        margin-top: 20px;
+    }
+
+    
+    .title1 h1{
+        font-size: 20px;
+    }
+
+    .title1 p{
+        font-size: 13px;
+        margin-top: 15px;
+
+    } 
+
+    .project-col-2{
+        flex-basis: 96%;
+    }
+
+    #project{
+        padding: 10px;
+        margin-left: 120px;
+    }
+    
+
+    
+    #project .project-col-1 img{
+        width: 380px;
+        height: 250px;
+    }
+
+    .project-col-2{
+        margin-top: 40px;
+    }
+
+    .project-col-2 p,.code{
+        margin-top: 20px;
+    }
+
+    
+
+
+    /* contact */
+
+
+    #contact-headng{
+        margin-top: 64px;
+    }
+
+
+    
+    .title2 h1{
+        font-size: 20px;
+    }
+
+    .title2 p{
+        font-size: 13px;
+        margin-top: 15px;
+    } 
+
+    /* form{
+        margin-left: 120px;
+    } */
+    
+
+    .box{
+        width: 550px;
+        height: 650px;
+        margin-top: 40px;
+    } 
+
+
+    input{
+        width: 400px;
+        height: 50px;
+    }
+
+    textarea{
+        width: 400px;
+        height: 230px;
+    }
+
+
+    .submit{
+        margin-right: 10px
+    }
+
+
+
+    /* footer */
+
+    .footer-col-2{
+        position: relative;
+        left: 0;
+        top: 60px; 
+    }
+
+
+    .dash{
+        margin-top: 100px;
+    }
+
+    .copyright{
+        font-size: 12px;
+        margin-top: 40px;
+     }
+    
+    
+    
+
+    }
+
+    
+    
+
+
+    
+
+
+   
+    
+
+    
+
+
